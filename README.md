@@ -2,17 +2,18 @@
 
 This is a simple NodeJS script which uses the [whatsapp-web-js](https://github.com/pedroslopez/whatsapp-web.js) library to automatically update your WhatsApp about every day at midnight. Currently, it updates your about to the number of days you've lived, but you could set it to anything you like!
 
-![about-example-image](./images/about_image.png)
+![about-example-image](./images/about-image.png)
 
 ## Usage
 
-Run this command to start the script:
+Clone the repository and run this command to start the script:
 
 ```
+git clone https://github.com/JohnKuruvila/whatsapp-about-automation
 node whatsapp.js
 ```
 
-Once the program is up, you will be prompted with a QR code. Scan this QR code in WhatsApp using the 'Linked Devices' option under the three dots menu. If you see `authenticated undefined` in the terminal, your program is up and running.
+Once the program is up, you will be prompted with a QR code. Scan this QR code in WhatsApp using the 'Linked Devices' option under the three dots menu. If you see `AUTHENTICATED undefined` in the terminal, your program is up and running.
 
 You can automate starting the script on boot using systemd if your Linux distro uses it. Here's an example file:
 `whatsappAbout.service`
