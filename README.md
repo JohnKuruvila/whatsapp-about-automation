@@ -2,6 +2,8 @@
 
 This is a simple NodeJS script which uses the [whatsapp-web-js](https://github.com/pedroslopez/whatsapp-web.js) library to automatically update your WhatsApp about every day at midnight. Currently, it updates your about to the number of days you've lived, but you could set it to anything you like!
 
+![about-example-image](./images/about_image.png)
+
 ## Usage
 
 Run this command to start the script:
