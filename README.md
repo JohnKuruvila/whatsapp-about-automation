@@ -10,6 +10,7 @@ Clone the repository and run this command to start the script:
 
 ```
 git clone https://github.com/JohnKuruvila/whatsapp-about-automation
+npm i
 node whatsapp.js
 ```
 
